@@ -9,23 +9,30 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+
+
+
     <title>Document</title>
 </head>
 
 <body>
     <main>
-        <header class='grid'>
-            <h1 id='mainTitle'>Yoonsub's to do list</h1>
+        <header id='mainTitle'>
+            Yoonsub's ToDo List
         </header>
-        <div class='grid'>
-            <input class = 'sub grida' id='add' placeholder='Add a to do' />
-            <button class = 'sub gridb' id='enter'>
-                <i class="fas fa-share fa-2x"></i>
-            </button>
-        </div>
 
-        <div='grid content'>fsdfds</div>
+        <div class='grid'>
+            <div class='gridAtt inputToDo '>
+                <input id='add' placeholder='Add a to do' />
+            </div>
+            <div class='gridAtt'><button id='buttonGo'><i class="fas fa-share"></i></button></div>
+            <div class='gridAtt span2 content'>
+            </div>
+        </div>
     </main>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./js/todo.js"></script>
 </body>
 
 </html>
