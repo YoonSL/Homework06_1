@@ -12,6 +12,7 @@ main{
     grid-template-columns: repeat(2,1fr);
     width:100vw;
 }
+
 header{
     width:100%;
     background-image: linear-gradient(120deg,rgb(167, 23, 95),purple);
@@ -24,6 +25,9 @@ header{
 
 }
 #buttonGo{
+    position:absolute;
+    right:16px;
+    top:31px;
     background:none;
     border:none;
     color:rgb(13, 37, 173);
@@ -37,7 +41,28 @@ header{
     font-size: 40px;
     
 }
+.checkTodo{
+    position:relative;
+    left: -138px;
+}
+.deleteTodo{
+    position:relative;
+    left: 183px;
+    bottom: 32px;
+}
+.textTodo{
+    position:relative;
+    left: -90px;
+    bottom: 16px;
+}
+.fa-check-square{
+    display:block;
+    content: "\f14a";
+}
+
 #add{
+    position:relative;
+    left:27px;
     width:300px;
     height:19px;
     margin-left:15px;
@@ -46,8 +71,6 @@ header{
     border-left : 1px rgb(167, 23, 95) solid;
     border-right: 1px purple solid;
     border-radius: 10px;
-    
-    
 }
 .clear{
     background:none;
@@ -102,6 +125,42 @@ header{
         padding:20px;
         text-align: left;
         font-size: 40px;
+    }
+    
+    #add{
+        position:relative;
+        left:12px;
+        width:300px;
+        height:19px;
+        margin-left:15px;
+        border-top : 1px rgb(167, 23, 95) solid;
+        border-bottom: 1px purple solid;
+        border-left : 1px rgb(167, 23, 95) solid;
+        border-right: 1px purple solid;
+        border-radius: 10px;
+    }
+    #buttonGo{
+        position:absolute;
+        right:11px;
+        top:31px;
+        background:none;
+        border:none;
+        color:rgb(13, 37, 173);
+
+    }
+    .checkTodo{
+        position:relative;
+        left: -163px;
+    }
+    .deleteTodo{
+        position:relative;
+        left: 147px;
+        bottom: 32px;
+    }
+    .textTodo{
+        position:relative;
+        left: -117px;
+        bottom: 16px;
     }
     
 }
